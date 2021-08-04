@@ -21,6 +21,18 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Instalacion
+
+- para instalacion deben crear una base de datos con el nombre prueba_sain.
+- cambiar los parametros dentro del .env para conexion a base de datos.
+- se debe ejecutar el comando en la consola cmd composer install.
+- cunado termina ejecutan php artisan migrate para que se ejecuten las migraciones a la base de datos.
+- despues ejecutan en la misma consola npm install.
+- ejecutan en 2 terminales diferentes php artisan serve.
+- y en la otra consola npm run dev.
+- listo pueden crea modifica y actualizar persona en el localhost:8000.
+
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
